@@ -87,6 +87,13 @@ h2 {
     background-color: grey;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+}
+
+.image-wrapper img {
+    width: 475px;
+    height: auto;
+    border-radius: 5px;
 }
 
 .lower-banner {
@@ -117,6 +124,12 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
+}
+
+.small-image-wrapper img {
+    width: 100px;
+    height: auto;
+    border-radius: 2px;
 }
 
 .quote-wrapper {
