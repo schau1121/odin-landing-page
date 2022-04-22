@@ -34,30 +34,36 @@ button {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
-    padding: 15px 120px;
     flex: 1;
 }
 
 .lower-banner {
-    padding: 15px 125px;
+    padding: 15px 8%;
     flex: 1;
 }
 
 .header {
     justify-content: space-between;
     align-items: center;
-    
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .logo {
+    flex-shrink: 0;
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
-    
+}
+
+.links {
+    flex-shrink: 0;
 }
 
 .main-banner {
     justify-content: space-between;
+    padding: 75px 8%;
 }
 
 .hero-text-wrapper {
@@ -72,6 +78,14 @@ button {
 
 #hero-sub-text {
     margin: 5px;
+}
+
+.image-wrapper {
+    display: flex;
+    width: 475px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-wrapper {
@@ -96,6 +110,7 @@ button {
 }
 
 .sign-up-wrapper button {
+    flex-shrink: 0;
     height: 30px;
     border: #F9FAF8 2px solid;
 }
@@ -103,10 +118,11 @@ button {
 .footer {
     align-items: center;
     justify-content: center;
+    padding: 15px 8%;
 }
 a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    margin: 0 8px;
+    margin: 0 5px;
 }
