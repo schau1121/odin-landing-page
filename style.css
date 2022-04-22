@@ -10,7 +10,6 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
@@ -31,20 +30,17 @@ button {
     border-style: none;
 }
 
-.sign-up-wrapper button {
-    border: #F9FAF8 2px solid;
-}
-
-
 .header,.main-banner,.footer {
     background-color: #1F2937;
     color: #E5E7EB;
     display: flex;
     padding: 15px 120px;
+    flex: 1;
 }
 
 .lower-banner {
     padding: 15px 125px;
+    flex: 1;
 }
 
 .header {
@@ -62,7 +58,6 @@ button {
 
 .main-banner {
     justify-content: space-between;
-    flex: 1;
 }
 
 .hero-text-wrapper {
@@ -77,6 +72,32 @@ button {
 
 #hero-sub-text {
     margin: 5px;
+}
+
+.sign-up-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 25px 20px;
+    margin: 40px 0px;
+}
+
+.sign-up-text h3 {
+    color: #F9FAF8;
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+.sign-up-text p {
+    font-size: 14px;
+    margin: 5px 20px;
+}
+
+.sign-up-wrapper button {
+    height: 30px;
+    border: #F9FAF8 2px solid;
 }
 
 .footer {
